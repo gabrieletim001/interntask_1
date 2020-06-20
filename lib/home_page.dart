@@ -13,8 +13,8 @@ class HomePage extends StatelessWidget {
           onPressed: () {
             Navigator.of(context).push(MaterialPageRoute(
         builder: (BuildContext context) => MyWebView(
-              title: "Alligator.io",
-              selectedUrl: "https://alligator.io",
+              title: "Google",
+              selectedUrl: "https://google.com",
             )));
           },
         ),
