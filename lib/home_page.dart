@@ -3,9 +3,9 @@ import 'package:my_webview_project/MyWebView.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
       appBar: AppBar(
-        title: Text("Home Page"),
+        title: Text("Home Page")
       ),
       body: Center(
         child: FlatButton(
